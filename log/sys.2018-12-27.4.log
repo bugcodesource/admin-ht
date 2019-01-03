@@ -1,0 +1,13 @@
+2018-12-27 16:49:57,850 DEBUG (UserController.java:39)- 页面跳转---->开始
+2018-12-27 16:49:58,127 DEBUG (UserController.java:59)- POST查询所有用户信息
+2018-12-27 16:49:58,129 DEBUG (UserController.java:62)- 10条数
+2018-12-27 16:49:58,129 DEBUG (UserController.java:64)- 1页数
+2018-12-27 16:49:58,200 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-27 16:49:58,201 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-27 16:49:58,235 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-27 16:49:58,237 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-27 16:49:58,238 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-27 16:49:58,241 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-27 18:00:49,023 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 19152 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-27 18:00:49,029 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-27 18:00:49,033 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

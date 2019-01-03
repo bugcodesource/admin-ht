@@ -1,0 +1,24 @@
+2018-12-28 22:18:17,526 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:18:17,557 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:18:17,559 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:18:17,560 INFO (MyShiroRealm.java:58)- [C@145c2183
+2018-12-28 22:18:17,563 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:18:17,565 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:18:17,569 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:18:17,571 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 22:18:17,603 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:18:17,614 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:18:17,616 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:18:17,621 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:18:17,623 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:18:17,625 INFO (MyShiroRealm.java:58)- [C@6fc7ac30
+2018-12-28 22:18:17,628 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:18:17,630 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:18:17,635 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:18:17,637 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 22:18:17,899 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:18:17,902 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:18:17,905 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:18:17,911 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:18:17,914 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:18:17,916 INFO (MyShiroRealm.java:58)- [C@246eedb8

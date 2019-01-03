@@ -1,0 +1,12 @@
+2019-01-02 18:38:27,851 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-01-02 18:38:27,859 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 18:38:27,860 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 18:38:29,198 DEBUG (UserController.java:43)- 页面跳转---->开始
+2019-01-02 18:38:29,567 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 18:38:29,569 DEBUG (UserController.java:66)- 10条数
+2019-01-02 18:38:29,570 DEBUG (UserController.java:68)- 1页数
+2019-01-02 18:38:29,570 DEBUG (UserController.java:70)- 内容：null
+2019-01-02 18:38:29,667 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2019-01-02 18:38:29,668 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-02 18:38:29,672 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 18:38:29,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 

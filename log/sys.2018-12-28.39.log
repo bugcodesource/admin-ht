@@ -1,0 +1,13 @@
+2018-12-28 22:40:45,071 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 13.779 seconds (JVM running for 19.498)
+2018-12-28 22:51:51,795 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:51:52,338 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:51:52,429 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-28 22:51:52,583 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 22:51:52,593 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:51:52,595 INFO (MyShiroRealm.java:58)- [C@22d2edb
+2018-12-28 22:51:52,597 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:51:52,605 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-28 22:51:52,616 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 22:51:52,620 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 22:51:54,342 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:51:54,351 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 

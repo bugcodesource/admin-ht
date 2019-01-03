@@ -1,0 +1,12 @@
+2019-01-02 17:07:40,776 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2019-01-02 17:07:40,784 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2019-01-02 17:07:44,721 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 17:07:44,725 DEBUG (UserController.java:66)- 10条数
+2019-01-02 17:07:44,726 DEBUG (UserController.java:68)- 1页数
+2019-01-02 17:07:44,728 DEBUG (UserController.java:70)- 内容：13
+2019-01-02 17:07:44,748 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 AND login_name LIKE CONCAT('%', ?, '%') OR real_name LIKE CONCAT('%', ?, '%') OR email LIKE CONCAT('%', ?, '%') OR telphone LIKE CONCAT('%', ?, '%') 
+2019-01-02 17:07:44,749 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 13(String), 13(String), 13(String), 13(String)
+2019-01-02 17:07:44,752 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 17:07:44,755 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 AND login_name LIKE CONCAT('%',?,'%') OR real_name LIKE CONCAT('%',?,'%') OR email LIKE CONCAT('%',?,'%') OR telphone LIKE CONCAT('%',?,'%') LIMIT ? 
+2019-01-02 17:07:44,755 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 13(String), 13(String), 13(String), 13(String), 10(Integer)
+2019-01-02 17:07:44,757 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

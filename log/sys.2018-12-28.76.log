@@ -1,0 +1,17 @@
+2018-12-28 23:21:56,956 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-28 23:21:56,956 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 23:21:56,979 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 23:21:56,979 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:21:56,982 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:21:56,982 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:21:56,984 INFO (MyShiroRealm.java:58)- [C@5883997c
+2018-12-28 23:21:56,984 INFO (MyShiroRealm.java:58)- [C@1d673850
+2018-12-28 23:21:56,987 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:21:56,987 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:21:56,993 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 23:21:56,994 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-28 23:21:56,997 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:21:57,000 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 23:21:57,000 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 23:21:57,003 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 23:23:12,252 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 12140 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)

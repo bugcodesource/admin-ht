@@ -1,0 +1,12 @@
+2018-12-26 13:34:15,850 INFO (ShiroConfig.java:107)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-26 13:34:15,862 INFO (ShiroConfig.java:126)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-26 13:34:15,863 INFO (ShiroConfig.java:115)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-26 13:34:18,204 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.43 seconds (JVM running for 7.206)
+2018-12-26 13:34:22,746 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-26 13:34:22,779 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-26 13:34:22,809 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-26 13:34:22,812 INFO (MyShiroRealm.java:53)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-26 13:34:22,813 INFO (MyShiroRealm.java:56)- null
+2018-12-26 13:34:22,814 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-26 13:34:22,814 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-26 13:34:22,816 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0

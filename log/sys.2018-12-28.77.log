@@ -1,0 +1,10 @@
+2018-12-28 23:23:12,284 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-28 23:23:12,343 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-28 23:23:19,037 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-28 23:23:19,049 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-28 23:23:19,052 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-28 23:23:24,574 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 15.341 seconds (JVM running for 21.071)
+2018-12-28 23:23:40,029 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:23:40,031 INFO (MyShiroRealm.java:58)- null
+2018-12-28 23:23:40,730 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:23:40,844 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null

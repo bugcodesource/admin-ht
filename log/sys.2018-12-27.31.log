@@ -1,0 +1,12 @@
+2018-12-27 18:12:01,962 INFO (MyShiroRealm.java:53)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-27 18:12:01,966 INFO (MyShiroRealm.java:56)- null
+2018-12-27 18:12:01,966 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-27 18:12:01,967 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-27 18:12:01,968 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-27 18:12:01,969 INFO (MyShiroRealm.java:60)- ----->>userInfo=
+2018-12-27 18:15:47,131 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 9664 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-27 18:15:47,137 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-27 18:15:47,142 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-27 18:15:49,222 INFO (ShiroConfig.java:107)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-27 18:15:49,226 INFO (ShiroConfig.java:126)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-27 18:15:49,227 INFO (ShiroConfig.java:115)-  ===> ShiroConfiguration.rememberMeCookie()

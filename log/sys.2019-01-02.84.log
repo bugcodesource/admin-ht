@@ -1,0 +1,10 @@
+2019-01-02 16:24:04,476 DEBUG (UserController.java:68)- 2页数
+2019-01-02 16:24:04,482 DEBUG (UserController.java:70)- 内容：admin
+2019-01-02 16:29:14,322 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 11480 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2019-01-02 16:29:14,328 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-02 16:29:14,331 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-01-02 16:29:16,340 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2019-01-02 16:29:16,345 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2019-01-02 16:29:16,346 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2019-01-02 16:29:18,568 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.385 seconds (JVM running for 7.17)
+2019-01-02 16:29:31,973 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()

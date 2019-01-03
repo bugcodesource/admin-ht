@@ -1,0 +1,24 @@
+2018-12-28 23:24:06,189 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:24:06,198 INFO (MyShiroRealm.java:58)- null
+2018-12-28 23:24:06,197 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:24:06,202 INFO (MyShiroRealm.java:58)- null
+2018-12-28 23:24:06,203 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:24:06,205 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-28 23:24:06,205 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:24:06,207 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-28 23:24:06,210 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:24:06,208 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:24:06,221 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 23:24:06,222 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 23:24:06,225 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-28 23:24:06,228 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:24:06,226 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-28 23:24:06,231 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-28 23:24:06,232 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:24:06,235 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 23:24:06,237 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 23:24:06,239 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:24:06,241 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:24:06,242 INFO (MyShiroRealm.java:58)- [C@2267968f
+2018-12-28 23:24:06,243 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:24:06,245 INFO (MyShiroRealm.java:58)- [C@249a1a15

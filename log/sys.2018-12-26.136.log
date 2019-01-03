@@ -1,0 +1,16 @@
+2018-12-26 13:07:16,641 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:07:16,653 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:07:20,127 DEBUG (UserController.java:97)- 获取ID为12的用户
+2018-12-26 13:07:20,130 DEBUG (UserController.java:98)- 获取用户的状态为1
+2018-12-26 13:07:20,132 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = ? WHERE user_id= ? 
+2018-12-26 13:07:20,133 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer), 12(Integer)
+2018-12-26 13:07:20,206 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 13:07:20,252 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 13:07:20,253 DEBUG (UserController.java:61)- 10条数
+2018-12-26 13:07:20,271 DEBUG (UserController.java:63)- 1页数
+2018-12-26 13:07:20,275 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 13:07:20,276 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:07:20,277 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:07:20,278 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 13:07:20,279 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:07:20,281 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10

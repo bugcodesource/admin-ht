@@ -1,0 +1,12 @@
+2018-12-26 14:01:54,762 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 14:01:54,767 DEBUG (UserController.java:61)- 10条数
+2018-12-26 14:01:54,767 DEBUG (UserController.java:63)- 1页数
+2018-12-26 14:01:54,830 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 14:01:54,830 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 14:01:54,832 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:01:54,834 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 14:01:54,834 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 14:01:54,839 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 14:02:10,829 DEBUG (UserController.java:39)- 页面跳转---->开始
+2018-12-26 14:02:11,225 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 14:02:11,226 DEBUG (UserController.java:61)- 10条数

@@ -1,0 +1,16 @@
+2019-01-02 11:08:16,702 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:16,707 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 11:08:16,708 INFO (MyShiroRealm.java:58)- [C@2b419212
+2019-01-02 11:08:16,709 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:16,710 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2019-01-02 11:08:16,712 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:16,713 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 11:08:17,464 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 11:08:17,464 INFO (MyShiroRealm.java:58)- null
+2019-01-02 11:08:17,465 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:17,466 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-01-02 11:08:17,467 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:17,468 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 11:08:17,469 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2019-01-02 11:08:17,470 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:17,470 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)

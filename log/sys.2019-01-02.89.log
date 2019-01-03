@@ -1,0 +1,12 @@
+2019-01-02 16:31:12,700 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2019-01-02 16:31:12,708 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2019-01-02 16:31:17,848 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:31:17,853 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:31:17,854 DEBUG (UserController.java:68)- 1页数
+2019-01-02 16:31:17,857 DEBUG (UserController.java:70)- 内容：1
+2019-01-02 16:35:05,053 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 18732 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2019-01-02 16:35:05,059 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-02 16:35:05,091 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-01-02 16:35:07,131 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2019-01-02 16:35:07,136 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2019-01-02 16:35:07,137 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()

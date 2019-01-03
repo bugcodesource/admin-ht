@@ -1,0 +1,16 @@
+2019-01-02 16:21:38,673 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 16:21:38,677 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 16:21:38,677 INFO (MyShiroRealm.java:58)- [C@15b87d50
+2019-01-02 16:21:38,678 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 16:21:38,678 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-01-02 16:21:38,682 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 16:21:38,684 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 16:21:40,162 DEBUG (UserController.java:43)- 页面跳转---->开始
+2019-01-02 16:21:40,488 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:21:40,489 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:21:40,490 DEBUG (UserController.java:68)- 1页数
+2019-01-02 16:21:40,491 DEBUG (UserController.java:70)- 内容：null
+2019-01-02 16:21:40,586 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user 
+2019-01-02 16:21:40,587 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-02 16:21:40,626 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 16:21:40,628 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user LIMIT ? 

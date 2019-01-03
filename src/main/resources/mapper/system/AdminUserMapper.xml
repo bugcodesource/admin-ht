@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sc.adminht.mapper.system.AdminUserMapper">
+
+    <!-- 根据登录名查询用户信息 -> 开始 -->
+    <resultMap id="result" type="com.sc.adminht.entity.system.AdminUser">
+        <result property="userId" column="user_id"/>
+        <result property="loginName" column="login_name" />
+        <result property="loginPwd" column="login_pwd" />
+        <result property="realName" column="real_name"/>
+        <result property="createTime" column="create_time"/>
+        <result property="imgUrl" column="img_url"/>
+        <result property="email" column="email"/>
+        <result property="telPhone" column="telphone"/>
+        <result property="roleId" column="role_id"/>
+        <result property="status" column="status"/>
+        <result property="loginIp" column="login_ip"/>
+        <result property="salt" column="salt"/>
+    </resultMap>
+    <select id="findUserByName" resultMap="result">
+      select * from sys_user where login_name = #{loginName}
+    </select>
+
+    <!-- 根据登录名查询用户信息 -> 结束 -->
+    <resultMap id="USER" type="com.sc.adminht.entity.system.UserInfo">
+        <result property="userId" column="user_id"/>
+        <result property="loginName" column="login_name" />
+        <result property="realName" column="real_name"/>
+        <result property="createTime" column="create_time"/>
+        <result property="email" column="email"/>
+        <result property="telPhone" column="telphone"/>
+        <result property="status" column="status"/>
+    </resultMap>
+    <select id="queryBySearch" resultMap="USER">
+        SELECT
+	      user_id,
+	      login_name,
+	      real_name,
+	      create_time,
+	      email,
+	      telphone,
+	      `status`
+        FROM
+	      sys_user
+        <where>
+
+          <if test="search != null and search != ''">
+              AND login_name LIKE CONCAT('%',#{search},'%')
+          </if>
+          <if test="search != null and search != ''">
+              OR real_name LIKE CONCAT('%',#{search},'%')
+          </if>
+          <if test="search != null and search != ''">
+              OR email LIKE CONCAT('%',#{search},'%')
+          </if>
+          <if test="search != null and search != ''">
+              OR telphone LIKE CONCAT('%',#{search},'%')
+          </if>
+            AND `status` != 2
+        </where>
+
+    </select>
+    <select id="queryAllList" resultMap="USER">
+        SELECT
+	      user_id,
+	      login_name,
+	      real_name,
+	      create_time,
+	      email,
+	      telphone,
+	      `status`
+        FROM
+	      sys_user
+        WHERE
+	      `status` != 2
+    </select>
+    <select id="count" resultType="int">
+        select count(*) from sys_user WHERE `status` != 2
+    </select>
+    <!-- 删除 修改状态为2-->
+    <update id="deleteUserInfo" parameterType="int">
+        UPDATE sys_user SET `status` = 2 WHERE user_id= #{userId}
+    </update>
+    <!-- 更改用户账号状态 （1、冻结；0、正常）-->
+    <update id="updateStatus" parameterType="int">
+        UPDATE sys_user SET `status` = #{status} WHERE user_id= #{userId}
+    </update>
+    <!-- 修改登录的ip -->
+    <update id="updateLoginIp" parameterType="int">
+        UPDATE sys_user SET login_ip = #{loginIp} WHERE user_id= #{userId}
+    </update>
+</mapper>

@@ -1,0 +1,13 @@
+2019-01-02 13:25:11,276 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2019-01-02 13:25:11,291 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2019-01-02 13:25:11,293 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2019-01-02 13:25:14,268 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 6.869 seconds (JVM running for 9.083)
+2019-01-02 13:25:30,211 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 13:25:30,213 INFO (MyShiroRealm.java:58)- null
+2019-01-02 13:25:30,457 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 13:25:30,487 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-01-02 13:25:30,524 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 13:25:30,527 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 13:31:36,525 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 18548 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2019-01-02 13:31:36,531 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-02 13:31:36,535 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

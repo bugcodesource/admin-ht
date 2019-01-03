@@ -1,0 +1,12 @@
+2018-12-28 22:27:07,038 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:27:07,070 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:27:07,073 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:27:07,075 INFO (MyShiroRealm.java:58)- [C@272f09b5
+2018-12-28 22:27:07,077 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:27:07,081 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:27:07,087 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:27:07,090 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 22:27:07,159 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:27:07,164 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:27:07,167 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:27:07,172 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0

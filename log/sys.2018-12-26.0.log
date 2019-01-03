@@ -1,0 +1,10 @@
+2018-12-26 09:21:01,035 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 14544 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-26 09:21:01,104 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-26 09:21:01,107 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 09:21:05,909 INFO (ShiroConfig.java:107)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-26 09:21:05,947 INFO (ShiroConfig.java:126)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-26 09:21:05,948 INFO (ShiroConfig.java:115)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-26 09:21:11,724 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 13.542 seconds (JVM running for 17.25)
+2018-12-26 09:21:25,445 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-26 09:21:25,484 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-26 09:21:25,516 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0

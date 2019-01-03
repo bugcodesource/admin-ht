@@ -1,0 +1,17 @@
+2018-12-26 13:40:00,054 DEBUG (UserController.java:96)- 获取ID为6的用户
+2018-12-26 13:40:00,061 DEBUG (UserController.java:97)- 获取用户的状态为1
+2018-12-26 13:40:00,062 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = ? WHERE user_id= ? 
+2018-12-26 13:40:00,063 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer), 6(Integer)
+2018-12-26 13:40:00,141 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 13:40:00,183 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 13:40:00,186 DEBUG (UserController.java:61)- 10条数
+2018-12-26 13:40:00,188 DEBUG (UserController.java:63)- 1页数
+2018-12-26 13:40:00,196 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 13:40:00,198 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:40:00,200 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:40:00,201 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 13:40:00,202 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:40:00,205 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 14:01:14,119 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 5252 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-26 14:01:14,125 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-26 14:01:14,140 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

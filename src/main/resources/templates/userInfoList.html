@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       th,td{border: 2px solid rebeccapurple}
+    </style>
+</head>
+<body>
+    <h2 th:text="${}">用户信息界面</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>用户名</th>
+            <th>头&emsp;像</th>
+            <th>姓&emsp;名</th>
+            <th>创建时间</th>
+            <th>邮箱地址</th>
+            <th>状态</th>
+            <th>手机号</th>
+            <th>IP</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr  th:each="adminUser:${adminUsers}">
+            <th scope="row" th:text="${adminUser.userId}"></th>
+            <td th:text="${adminUser.loginName}"></td>
+            <td th:text="${adminUser.imgUrl}"></td>
+            <td th:text="${adminUser.realName}"></td>
+            <td th:text="${adminUser.createTime}"></td>
+            <td th:text="${adminUser.email}"></td>
+            <td>
+                <span th:if="${adminUser.status eq 0}">正常</span>
+                <span th:if="${adminUser.status eq 1}">冻结</span>
+            </td>
+            <td th:text="${adminUser.telPhone}"></td>
+            <td th:text="${adminUser.loginIp}"></td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

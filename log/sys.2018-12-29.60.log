@@ -1,0 +1,221 @@
+2018-12-29 17:42:08,728 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:42:08,747 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:42:08,749 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:42:08,750 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:42:08,751 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:42:08,752 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:42:08,754 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 17:42:08,754 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:42:08,755 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:42:08,766 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:42:08,767 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:42:08,767 INFO (MyShiroRealm.java:58)- [C@5f56c7b
+2018-12-29 17:42:08,768 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:42:08,769 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:42:08,770 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:42:08,771 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:43:46,007 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 10612 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-29 17:43:46,013 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-29 17:43:46,016 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-29 17:43:50,811 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-29 17:43:50,838 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-29 17:43:50,839 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-29 17:43:54,137 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 10.227 seconds (JVM running for 15.903)
+2018-12-29 17:44:14,497 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:44:14,504 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:44:14,935 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:44:14,975 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:44:15,002 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:44:15,009 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:44:55,504 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 3156 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-29 17:44:55,509 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-29 17:44:55,517 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-29 17:44:57,403 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-29 17:44:57,415 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-29 17:44:57,416 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-29 17:44:59,525 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.0 seconds (JVM running for 6.571)
+2018-12-29 17:45:17,408 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:45:17,413 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:45:17,584 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:17,617 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:45:17,641 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:45:17,647 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:45:17,804 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 17:45:17,805 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:17,806 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:45:17,813 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:17,814 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:45:17,814 INFO (MyShiroRealm.java:58)- [C@49a42698
+2018-12-29 17:45:17,815 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:17,820 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:45:17,823 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:17,824 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:45:22,626 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:45:22,633 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:45:22,635 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:22,636 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:45:22,639 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:45:22,640 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:45:22,645 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 17:45:22,646 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:22,647 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:45:22,655 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:22,656 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:45:22,656 INFO (MyShiroRealm.java:58)- [C@5985e0b4
+2018-12-29 17:45:22,657 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:22,657 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:45:22,659 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:22,660 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:45:29,027 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:45:29,035 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:45:29,038 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:29,039 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:45:29,042 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:45:29,051 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:45:29,054 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 17:45:29,055 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:29,055 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:45:29,063 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:29,064 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:45:29,064 INFO (MyShiroRealm.java:58)- [C@3fbf6590
+2018-12-29 17:45:29,065 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:45:29,065 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:45:29,067 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:29,067 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:45:33,682 DEBUG (UserController.java:43)- 页面跳转---->开始
+2018-12-29 17:45:34,310 DEBUG (UserController.java:63)- POST查询所有用户信息
+2018-12-29 17:45:34,311 DEBUG (UserController.java:66)- 10条数
+2018-12-29 17:45:34,312 DEBUG (UserController.java:68)- 1页数
+2018-12-29 17:45:34,400 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-29 17:45:34,407 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-29 17:45:34,458 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:45:34,460 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-29 17:45:34,461 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-29 17:45:34,469 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-29 17:48:04,645 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 19412 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-29 17:48:04,651 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-29 17:48:04,654 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-29 17:48:06,479 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-29 17:48:06,495 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-29 17:48:06,496 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-29 17:48:08,604 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.005 seconds (JVM running for 6.587)
+2018-12-29 17:48:54,499 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:48:54,507 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:48:54,703 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:48:54,743 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:48:54,771 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:48:54,778 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:48:54,842 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 17:48:54,843 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:48:54,845 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:48:54,856 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:48:54,858 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:48:54,859 INFO (MyShiroRealm.java:58)- [C@170c46b1
+2018-12-29 17:48:54,860 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:48:54,860 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 17:48:54,864 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:48:54,866 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:48:56,133 DEBUG (UserController.java:43)- 页面跳转---->开始
+2018-12-29 17:48:56,420 DEBUG (UserController.java:63)- POST查询所有用户信息
+2018-12-29 17:48:56,421 DEBUG (UserController.java:66)- 10条数
+2018-12-29 17:48:56,422 DEBUG (UserController.java:68)- 1页数
+2018-12-29 17:48:56,465 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-29 17:48:56,466 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-29 17:48:56,468 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 17:48:56,472 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-29 17:48:56,475 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-29 17:48:56,491 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-29 17:56:28,500 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 2100 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-29 17:56:28,506 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-29 17:56:28,509 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-29 17:56:30,526 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-29 17:56:30,543 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-29 17:56:30,545 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-29 17:56:32,889 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.389 seconds (JVM running for 7.097)
+2018-12-29 17:57:29,690 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:57:29,697 INFO (MyShiroRealm.java:58)- null
+2018-12-29 17:57:29,879 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:57:29,910 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 17:57:29,934 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:57:29,942 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 17:57:29,994 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 17:57:29,995 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:57:29,996 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 17:57:30,010 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:57:30,011 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 17:57:30,012 INFO (MyShiroRealm.java:58)- [C@51520dff
+2018-12-29 17:57:30,012 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 17:57:30,013 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 17:57:30,015 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 17:57:30,017 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:03:37,463 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 18340 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-29 18:03:37,468 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-29 18:03:37,471 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-29 18:03:39,370 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-29 18:03:39,383 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-29 18:03:39,384 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-29 18:03:41,462 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 4.948 seconds (JVM running for 6.527)
+2018-12-29 18:04:11,461 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:04:11,467 INFO (MyShiroRealm.java:58)- null
+2018-12-29 18:04:11,639 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:11,671 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 18:04:11,695 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:11,703 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:04:11,777 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 18:04:11,779 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:11,780 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 18:04:11,847 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:11,848 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:04:11,848 INFO (MyShiroRealm.java:58)- [C@27052c8a
+2018-12-29 18:04:11,849 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:11,849 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 18:04:11,851 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:11,852 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:04:25,649 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:04:25,659 INFO (MyShiroRealm.java:58)- null
+2018-12-29 18:04:25,663 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:25,664 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 18:04:25,665 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:25,666 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:04:25,668 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 18:04:25,669 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:25,670 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 18:04:25,680 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 18:04:25,681 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:04:25,681 INFO (MyShiroRealm.java:58)- [C@7a4a1698
+2018-12-29 18:04:25,682 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:25,682 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-29 18:04:25,684 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-29 18:04:25,685 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:04:28,841 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:04:28,852 INFO (MyShiroRealm.java:58)- null
+2018-12-29 18:04:28,855 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:28,856 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 18:04:28,858 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:28,863 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:04:28,865 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 18:04:28,866 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:28,866 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 18:04:28,874 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:28,875 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:04:28,876 INFO (MyShiroRealm.java:58)- [C@b09bbe9
+2018-12-29 18:04:28,876 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:04:28,877 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 18:04:28,878 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:04:28,878 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:06:50,500 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:06:50,506 INFO (MyShiroRealm.java:58)- null
+2018-12-29 18:06:50,508 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:06:50,509 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-29 18:06:50,511 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:06:50,517 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-29 18:06:50,520 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-29 18:06:50,520 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:06:50,521 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 18:06:50,529 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:06:50,530 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-29 18:06:50,530 INFO (MyShiroRealm.java:58)- [C@70d9d26
+2018-12-29 18:06:50,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-29 18:06:50,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-29 18:06:50,532 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-29 18:06:50,533 INFO (MyShiroRealm.java:62)- ----->>userInfo=

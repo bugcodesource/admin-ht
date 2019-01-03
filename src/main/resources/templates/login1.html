@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+错误信息：<h4 th:text="${msg}"></h4>
+<h4 th:text="${session.user}"></h4>
+<form action="" th:action="@{/login}" method="post">
+    <p>账号：<input type="text" name="loginName"/></p>
+    <p>密码：<input type="text" name="loginPwd"/></p>
+    <p><input type="submit" value="登录"/></p>
+    <P><input type="checkbox" name="rememberMe" />记住我</P>
+</form>
+<script th:src="@{//cdn.bootcss.com/jquery/2.2.3/jquery.min.js}"></script>
+
+
+</body>
+</html>

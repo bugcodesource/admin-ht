@@ -1,0 +1,16 @@
+2018-12-27 18:01:12,154 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-27 18:01:12,161 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-27 18:01:12,162 INFO (MyShiroRealm.java:60)- ----->>userInfo=
+2018-12-27 18:01:12,421 INFO (MyShiroRealm.java:53)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-27 18:01:12,422 INFO (MyShiroRealm.java:56)- null
+2018-12-27 18:01:12,423 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-27 18:01:12,424 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2018-12-27 18:01:12,426 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-27 18:01:12,427 INFO (MyShiroRealm.java:60)- ----->>userInfo=
+2018-12-27 18:01:12,429 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-27 18:01:12,458 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-27 18:01:12,460 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-27 18:01:12,461 INFO (MyShiroRealm.java:53)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-27 18:01:12,461 INFO (MyShiroRealm.java:56)- [C@12a91060
+2018-12-27 18:01:12,462 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-27 18:01:12,463 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)

@@ -1,0 +1,13 @@
+2019-01-02 13:59:29,125 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.935 seconds (JVM running for 7.993)
+2019-01-02 13:59:42,882 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 13:59:42,884 INFO (MyShiroRealm.java:58)- null
+2019-01-02 13:59:43,089 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 13:59:43,118 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-01-02 13:59:43,142 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 13:59:43,144 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 13:59:43,258 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 13:59:43,260 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-01-02 13:59:43,264 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 13:59:43,265 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 13:59:43,266 INFO (MyShiroRealm.java:58)- [C@1c057217
+2019-01-02 13:59:43,266 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 

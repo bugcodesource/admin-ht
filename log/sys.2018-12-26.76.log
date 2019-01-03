@@ -1,0 +1,14 @@
+2018-12-26 11:02:11,405 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 11:02:11,412 DEBUG (UserController.java:61)- 10条数
+2018-12-26 11:02:11,412 DEBUG (UserController.java:63)- 2页数
+2018-12-26 11:02:11,417 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 11:02:11,418 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 11:02:11,420 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 11:02:11,420 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ?, ? 
+2018-12-26 11:02:11,421 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 10(Integer)
+2018-12-26 11:02:11,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 11:02:15,567 DEBUG (MyShiroRealm.java:31)- 权限配置-->MyShiroRealm.doGetAuthorizationInfo()
+2018-12-26 11:02:15,568 INFO (MyShiroRealm.java:34)- ------------>AdminUser(userId=1, loginName=admin, loginPwd=d3c59d25033dbf980d29554025c23a75, realName=李冰, createTime=1545031490, imgUrl=/11222, email=189658@qq.com, telPhone=13958768542, roleId=1, status=0, loginIp=218.88.20.205, salt=8d78869f470951332959580424d4bf4f)
+2018-12-26 11:02:15,571 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT sys_user.*, sys_role.role_id, sys_role.available, sys_role.role_desc, sys_role.role FROM sys_user RIGHT JOIN sys_user_role ON sys_user.user_id = sys_user_role.user_id LEFT JOIN sys_role ON sys_user_role.role_id = sys_role.role_id WHERE sys_user.login_name = ? 
+2018-12-26 11:02:15,572 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-26 11:02:15,580 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

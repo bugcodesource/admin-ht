@@ -1,0 +1,15 @@
+2019-01-02 16:37:27,790 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 16:37:27,795 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 16:37:27,795 INFO (MyShiroRealm.java:58)- [C@5cf4c19e
+2019-01-02 16:37:27,796 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 16:37:27,796 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-01-02 16:37:27,799 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 16:37:27,800 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 16:37:29,026 DEBUG (UserController.java:43)- 页面跳转---->开始
+2019-01-02 16:37:29,323 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:37:29,325 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:37:29,326 DEBUG (UserController.java:68)- 1页数
+2019-01-02 16:37:29,326 DEBUG (UserController.java:70)- 内容：null
+2019-01-02 16:38:04,363 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 7700 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2019-01-02 16:38:04,369 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-02 16:38:04,372 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

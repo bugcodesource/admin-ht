@@ -1,0 +1,10 @@
+2019-01-02 13:48:07,115 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 13:48:07,122 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 13:48:07,122 INFO (MyShiroRealm.java:58)- [C@2418fa87
+2019-01-02 13:48:07,124 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 13:48:07,125 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123(String)
+2019-01-02 13:48:07,129 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 13:48:07,133 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 13:49:15,159 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 6760 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2019-01-02 13:49:15,259 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-02 13:49:15,263 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

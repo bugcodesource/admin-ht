@@ -1,0 +1,8 @@
+2018-12-26 11:02:15,582 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT sys_role.role_id, sys_role.available, sys_role.role_desc, sys_role.role, sys_permission.`name`, sys_permission.permission, sys_permission.url FROM ( sys_permission, sys_role ) RIGHT JOIN sys_role_permission ON sys_permission.id = sys_role_permission.permission_id AND sys_role_permission.role_id = sys_role.role_id WHERE sys_role.role_id = ? 
+2018-12-26 11:02:15,587 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-12-26 11:02:15,593 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-12-26 11:02:15,594 INFO (MyShiroRealm.java:46)- 用户admin具有的角色:[admin]
+2018-12-26 11:02:15,595 INFO (MyShiroRealm.java:47)- 用户admin具有的权限：[userInfo:del, userInfo:view, update:status, userInfo:add]
+2018-12-26 11:02:15,600 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = 2 WHERE user_id= ? 
+2018-12-26 11:02:15,600 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 12(Integer)
+2018-12-26 11:02:15,681 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1

@@ -1,0 +1,12 @@
+2019-01-02 14:24:12,387 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2019-01-02 14:43:34,510 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 14:43:34,512 DEBUG (UserController.java:66)- 10条数
+2019-01-02 14:43:34,513 DEBUG (UserController.java:68)- 1页数
+2019-01-02 14:43:34,517 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2019-01-02 14:43:34,519 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-02 14:43:34,523 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 14:43:34,524 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2019-01-02 14:43:34,526 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2019-01-02 14:43:34,532 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2019-01-02 14:43:49,653 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 14:43:49,654 DEBUG (UserController.java:66)- 10条数

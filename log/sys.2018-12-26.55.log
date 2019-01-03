@@ -1,0 +1,13 @@
+2018-12-26 10:06:00,532 DEBUG (UserController.java:97)- 获取用户的状态为1
+2018-12-26 10:06:00,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = ? WHERE user_id= ? 
+2018-12-26 10:06:00,538 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer), 4(Integer)
+2018-12-26 10:06:00,717 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 10:06:00,765 DEBUG (UserController.java:56)- POST查询所有用户信息
+2018-12-26 10:06:00,766 DEBUG (UserController.java:59)- 10条数
+2018-12-26 10:06:00,768 DEBUG (UserController.java:61)- 1页数
+2018-12-26 10:06:00,775 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 10:06:00,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 10:06:00,781 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 10:06:00,784 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 10:06:00,785 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 10:06:00,792 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10

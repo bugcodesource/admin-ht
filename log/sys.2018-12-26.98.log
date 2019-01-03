@@ -1,0 +1,12 @@
+2018-12-26 11:28:06,703 DEBUG (UserController.java:39)- 页面跳转---->开始
+2018-12-26 11:28:06,983 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 11:28:06,984 DEBUG (UserController.java:61)- 10条数
+2018-12-26 11:28:06,985 DEBUG (UserController.java:63)- 1页数
+2018-12-26 11:28:07,036 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 11:28:07,037 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 11:28:07,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 11:28:07,043 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 11:28:07,067 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 11:28:07,071 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 11:28:19,666 DEBUG (MyShiroRealm.java:31)- 权限配置-->MyShiroRealm.doGetAuthorizationInfo()
+2018-12-26 11:28:19,667 INFO (MyShiroRealm.java:34)- ------------>AdminUser(userId=1, loginName=admin, loginPwd=d3c59d25033dbf980d29554025c23a75, realName=李冰, createTime=1545031490, imgUrl=/11222, email=189658@qq.com, telPhone=13958768542, roleId=1, status=0, loginIp=218.88.20.205, salt=8d78869f470951332959580424d4bf4f)

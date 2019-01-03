@@ -1,0 +1,8 @@
+2018-12-26 10:06:00,501 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-26 10:06:00,514 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 10:06:00,518 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT sys_role.role_id, sys_role.available, sys_role.role_desc, sys_role.role, sys_permission.`name`, sys_permission.permission, sys_permission.url FROM ( sys_permission, sys_role ) RIGHT JOIN sys_role_permission ON sys_permission.id = sys_role_permission.permission_id AND sys_role_permission.role_id = sys_role.role_id WHERE sys_role.role_id = ? 
+2018-12-26 10:06:00,519 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-12-26 10:06:00,527 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-12-26 10:06:00,529 INFO (MyShiroRealm.java:46)- 用户admin具有的角色:[admin]
+2018-12-26 10:06:00,529 INFO (MyShiroRealm.java:47)- 用户admin具有的权限：[userInfo:view, update:status, userInfo:add]
+2018-12-26 10:06:00,532 DEBUG (UserController.java:96)- 获取ID为4的用户

@@ -1,0 +1,12 @@
+2019-01-02 12:20:12,390 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2019-01-02 12:20:12,401 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2019-01-02 12:20:12,402 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2019-01-02 12:20:14,578 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.265 seconds (JVM running for 7.045)
+2019-01-02 12:20:46,764 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 12:20:46,765 INFO (MyShiroRealm.java:58)- null
+2019-01-02 12:20:47,002 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 12:20:47,051 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-01-02 12:20:47,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 12:20:47,080 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 12:20:47,119 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2019-01-02 12:20:47,121 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 

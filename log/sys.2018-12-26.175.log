@@ -1,0 +1,14 @@
+2018-12-26 14:07:36,877 INFO (MyShiroRealm.java:60)- ----->>userInfo=
+2018-12-26 14:07:38,916 DEBUG (UserController.java:39)- 页面跳转---->开始
+2018-12-26 14:07:39,421 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 14:07:39,421 DEBUG (UserController.java:61)- 10条数
+2018-12-26 14:07:39,422 DEBUG (UserController.java:63)- 1页数
+2018-12-26 14:07:39,425 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 14:07:39,427 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 14:07:39,429 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:07:39,431 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 14:07:39,433 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 14:07:39,437 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 14:22:40,897 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 11156 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-26 14:22:40,903 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-26 14:22:40,911 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

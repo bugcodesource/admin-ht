@@ -1,0 +1,15 @@
+2018-12-28 23:04:37,100 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:04:37,108 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 23:04:37,112 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2018-12-28 23:04:37,113 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:04:37,116 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 23:04:37,119 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:04:37,120 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 23:04:37,121 INFO (MyShiroRealm.java:58)- [C@c883ee9
+2018-12-28 23:04:37,122 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 23:04:37,123 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 23:04:37,127 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 23:04:37,129 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 23:05:48,386 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 19316 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-28 23:05:48,619 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-28 23:05:48,628 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

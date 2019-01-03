@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+</head>
+<body>
+<h2>用户列表</h2>
+<div>
+    <ul>
+        <li  th:each="admin:${users}">
+            <span th:text="${admin.userId}"></span>-
+            <span th:text="${admin.loginName}"></span>-
+            <span th:text="${admin.loginPwd}"></span>-
+        </li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sc.adminht.mapper.system.SysRoleMapper">
+	<resultMap id="result" type="com.sc.adminht.entity.system.SysRole">
+		<result property="roleId" column="role_id"/>
+		<result property="role" column="role"/>
+		<result property="roleDesc" column="role_desc"/>
+		<result property="available" column="available"/>
+	</resultMap>
+    <!-- 根据登录用户名查询用户角色信息 -> 开始 -->
+    <select id="findRoleByName" resultMap="result">
+      SELECT
+	    sys_user.*,
+	    sys_role.role_id,
+	    sys_role.available,
+	    sys_role.role_desc,
+	    sys_role.role
+      FROM
+	    sys_user
+	    RIGHT JOIN sys_user_role ON sys_user.user_id = sys_user_role.user_id
+	    LEFT JOIN sys_role ON sys_user_role.role_id = sys_role.role_id
+      WHERE
+	    sys_user.login_name = #{loginName}
+    </select>
+	<!-- 根据登录用户名查询用户角色信息 -> 结束 -->
+</mapper>

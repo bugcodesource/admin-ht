@@ -1,0 +1,9 @@
+2018-12-26 13:07:43,069 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 13:07:43,073 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:07:43,075 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:07:43,076 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 13:07:43,077 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:07:43,080 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:20:08,542 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 14924 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-26 13:20:08,548 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-26 13:20:08,551 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

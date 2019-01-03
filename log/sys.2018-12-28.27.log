@@ -1,0 +1,24 @@
+2018-12-28 22:22:08,341 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:22:08,354 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:22:08,360 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:22:08,363 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 22:22:08,395 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:22:08,398 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:22:08,400 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:22:08,406 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:22:08,409 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:22:08,413 INFO (MyShiroRealm.java:58)- [C@6a75f52c
+2018-12-28 22:22:08,415 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:22:08,418 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:22:08,423 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:22:08,426 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2018-12-28 22:22:08,466 DEBUG (LoginController.java:70)- ====> 启动登录功能
+2018-12-28 22:22:08,468 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:22:08,471 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:22:08,476 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:22:08,479 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-28 22:22:08,481 INFO (MyShiroRealm.java:58)- [C@4afa7243
+2018-12-28 22:22:08,483 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-28 22:22:08,486 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2018-12-28 22:22:08,492 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-28 22:22:08,495 INFO (MyShiroRealm.java:62)- ----->>userInfo=

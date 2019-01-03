@@ -1,0 +1,10 @@
+2018-12-28 15:30:36,803 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-28 15:30:36,813 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-28 15:30:36,814 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()
+2018-12-28 15:30:38,850 INFO (StartupInfoLogger.java:59)- Started AdminHtApplication in 5.071 seconds (JVM running for 6.811)
+2018-12-28 15:31:37,469 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 12660 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-28 15:31:37,477 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-28 15:31:37,481 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-28 15:31:40,312 INFO (ShiroConfig.java:125)-  ===> ShiroConfiguration.getEhCacheManager()
+2018-12-28 15:31:40,317 INFO (ShiroConfig.java:154)-  ===> ShiroConfiguration.rememberMeManager()
+2018-12-28 15:31:40,317 INFO (ShiroConfig.java:137)-  ===> ShiroConfiguration.rememberMeCookie()

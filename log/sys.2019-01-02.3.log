@@ -1,0 +1,25 @@
+2019-01-02 11:08:13,981 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 11:08:13,986 INFO (MyShiroRealm.java:58)- null
+2019-01-02 11:08:13,987 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:13,988 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-01-02 11:08:13,989 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:13,990 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 11:08:13,993 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2019-01-02 11:08:13,995 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:13,996 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2019-01-02 11:08:14,027 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:14,029 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 11:08:14,029 INFO (MyShiroRealm.java:58)- [C@17fafacf
+2019-01-02 11:08:14,031 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:14,032 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2019-01-02 11:08:14,034 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:14,035 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 11:08:14,232 INFO (MyShiroRealm.java:55)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2019-01-02 11:08:14,233 INFO (MyShiroRealm.java:58)- null
+2019-01-02 11:08:14,234 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:14,236 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null
+2019-01-02 11:08:14,249 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-01-02 11:08:14,250 INFO (MyShiroRealm.java:62)- ----->>userInfo=
+2019-01-02 11:08:14,252 DEBUG (LoginController.java:74)- ====> 启动登录功能
+2019-01-02 11:08:14,253 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2019-01-02 11:08:14,254 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)

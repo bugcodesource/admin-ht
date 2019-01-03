@@ -1,0 +1,12 @@
+2018-12-26 09:49:27,796 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-26 09:49:27,816 INFO (MyShiroRealm.java:60)- ----->>userInfo=
+2018-12-26 09:49:27,837 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-26 09:49:27,838 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-26 09:49:27,842 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 09:49:27,843 INFO (MyShiroRealm.java:53)-  ===> MyShiroRealm.doGetAuthenticationInfo()
+2018-12-26 09:49:27,844 INFO (MyShiroRealm.java:56)- [C@1ae4b6de
+2018-12-26 09:49:27,845 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from sys_user where login_name = ? 
+2018-12-26 09:49:27,845 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-26 09:49:27,871 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 09:49:27,872 INFO (MyShiroRealm.java:60)- ----->>userInfo=
+2018-12-26 09:49:29,630 DEBUG (UserController.java:37)- 页面跳转---->开始

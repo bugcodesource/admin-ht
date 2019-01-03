@@ -1,0 +1,19 @@
+2018-12-26 11:47:57,211 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 11:47:57,225 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 11:48:00,830 DEBUG (UserController.java:98)- 获取ID为12的用户
+2018-12-26 11:48:00,832 DEBUG (UserController.java:99)- 获取用户的状态为1
+2018-12-26 11:48:00,833 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = ? WHERE user_id= ? 
+2018-12-26 11:48:00,835 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer), 12(Integer)
+2018-12-26 11:48:00,894 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 11:48:00,928 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 11:48:00,930 DEBUG (UserController.java:61)- 10条数
+2018-12-26 11:48:00,934 DEBUG (UserController.java:63)- 1页数
+2018-12-26 11:48:00,943 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 11:48:00,946 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 11:48:00,947 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 11:48:00,949 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2018-12-26 11:48:00,950 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 11:48:00,954 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:06:27,617 INFO (StartupInfoLogger.java:50)- Starting AdminHtApplication on DESKTOP-9SCGNQP with PID 15296 (E:\GitURLDownload\admin-ht\target\classes started by NariT in E:\GitURLDownload\admin-ht)
+2018-12-26 13:06:27,624 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-26 13:06:27,627 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,12 @@
+2019-01-02 16:40:27,843 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2019-01-02 16:40:27,850 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2019-01-02 16:40:31,472 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:40:31,474 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:40:31,475 DEBUG (UserController.java:68)- 1页数
+2019-01-02 16:40:31,478 DEBUG (UserController.java:70)- 内容：a
+2019-01-02 16:40:31,491 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 AND login_name LIKE CONCAT('%', ?, '%') 
+2019-01-02 16:40:31,492 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: a(String)
+2019-01-02 16:40:31,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 16:40:31,495 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 AND login_name LIKE CONCAT('%',?,'%') LIMIT ? 
+2019-01-02 16:40:31,496 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: a(String), 10(Integer)
+2019-01-02 16:40:31,521 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 7

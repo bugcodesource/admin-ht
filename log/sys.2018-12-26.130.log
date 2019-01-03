@@ -1,0 +1,20 @@
+2018-12-26 11:47:57,008 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT sys_user.*, sys_role.role_id, sys_role.available, sys_role.role_desc, sys_role.role FROM sys_user RIGHT JOIN sys_user_role ON sys_user.user_id = sys_user_role.user_id LEFT JOIN sys_role ON sys_user_role.role_id = sys_role.role_id WHERE sys_user.login_name = ? 
+2018-12-26 11:47:57,037 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-12-26 11:47:57,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 11:47:57,041 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT sys_role.role_id, sys_role.available, sys_role.role_desc, sys_role.role, sys_permission.`name`, sys_permission.permission, sys_permission.url FROM ( sys_permission, sys_role ) RIGHT JOIN sys_role_permission ON sys_permission.id = sys_role_permission.permission_id AND sys_role_permission.role_id = sys_role.role_id WHERE sys_role.role_id = ? 
+2018-12-26 11:47:57,042 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-12-26 11:47:57,045 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-12-26 11:47:57,046 INFO (MyShiroRealm.java:46)- 用户admin具有的角色:[admin]
+2018-12-26 11:47:57,047 INFO (MyShiroRealm.java:47)- 用户admin具有的权限：[userInfo:del, userInfo:view, update:status, userInfo:add]
+2018-12-26 11:47:57,049 DEBUG (UserController.java:98)- 获取ID为12的用户
+2018-12-26 11:47:57,050 DEBUG (UserController.java:99)- 获取用户的状态为0
+2018-12-26 11:47:57,050 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = ? WHERE user_id= ? 
+2018-12-26 11:47:57,051 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer), 12(Integer)
+2018-12-26 11:47:57,143 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 11:47:57,197 DEBUG (UserController.java:58)- POST查询所有用户信息
+2018-12-26 11:47:57,198 DEBUG (UserController.java:61)- 10条数
+2018-12-26 11:47:57,199 DEBUG (UserController.java:63)- 1页数
+2018-12-26 11:47:57,202 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2018-12-26 11:47:57,204 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 11:47:57,208 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 11:47:57,209 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 

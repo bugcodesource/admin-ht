@@ -1,0 +1,15 @@
+2019-01-02 18:40:17,753 DEBUG (UserController.java:105)- 获取ID为8的用户
+2019-01-02 18:40:17,759 DEBUG (UserController.java:106)- 获取用户的状态为1
+2019-01-02 18:40:17,760 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE sys_user SET `status` = ? WHERE user_id= ? 
+2019-01-02 18:40:17,761 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer), 8(Integer)
+2019-01-02 18:40:17,843 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-01-02 18:40:17,883 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 18:40:17,887 DEBUG (UserController.java:66)- 10条数
+2019-01-02 18:40:17,889 DEBUG (UserController.java:68)- 1页数
+2019-01-02 18:40:17,890 DEBUG (UserController.java:70)- 内容：
+2019-01-02 18:40:17,897 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM sys_user WHERE `status` != 2 
+2019-01-02 18:40:17,899 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-01-02 18:40:17,902 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-01-02 18:40:17,904 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT user_id, login_name, real_name, create_time, email, telphone, `status` FROM sys_user WHERE `status` != 2 LIMIT ? 
+2019-01-02 18:40:17,904 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2019-01-02 18:40:17,907 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10

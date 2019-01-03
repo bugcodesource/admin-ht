@@ -1,0 +1,16 @@
+2019-01-02 16:21:40,630 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2019-01-02 16:21:40,652 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2019-01-02 16:21:53,564 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:21:53,568 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:21:53,570 DEBUG (UserController.java:68)- 1页数
+2019-01-02 16:21:53,571 DEBUG (UserController.java:70)- 内容：admin
+2019-01-02 16:23:59,912 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:23:59,914 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:23:59,914 DEBUG (UserController.java:68)- 2页数
+2019-01-02 16:23:59,915 DEBUG (UserController.java:70)- 内容：admin
+2019-01-02 16:24:01,492 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:24:01,493 DEBUG (UserController.java:66)- 10条数
+2019-01-02 16:24:01,494 DEBUG (UserController.java:68)- 1页数
+2019-01-02 16:24:01,495 DEBUG (UserController.java:70)- 内容：admin
+2019-01-02 16:24:02,076 DEBUG (UserController.java:63)- POST查询所有用户信息
+2019-01-02 16:24:02,077 DEBUG (UserController.java:66)- 10条数
