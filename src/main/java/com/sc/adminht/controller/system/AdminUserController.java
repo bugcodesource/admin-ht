@@ -1,12 +1,20 @@
 package com.sc.adminht.controller.system;
 
 import com.sc.adminht.controller.BaseController;
+import com.sc.adminht.entity.user.Address;
 import com.sc.adminht.service.system.AdminUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -20,6 +28,13 @@ import org.springframework.web.bind.annotation.*;
 public class AdminUserController extends BaseController {
     @Autowired
     private AdminUserService adminUserService;
+
+    private String province;
+    private String city;
+    private String county;
+    private String town;
+    private String village;
+
     @RequestMapping(value = "/userList",method = RequestMethod.GET)
     @RequiresPermissions("userInfo:view")
     public String userInfo() {
@@ -65,9 +80,23 @@ public class AdminUserController extends BaseController {
      * @return
      */
     @RequestMapping("/userAdd")
-    @RequiresPermissions("userInfo:add")//权限管理;
-    public String userInfoAdd(){
-        return "userInfoAdd";
+    @RequiresPermissions("userInfo:add")
+    public void userInfoAdd(Address address){
+
+        String address1 = "湖北省武汉市洪山县海损镇45组35号";
+        for (Map<String, String> m : stringToAddress(address1)) {
+            province = m.get("province");
+            city = m.get("city");
+            county = m.get("county");
+            town = m.get("town");
+            village = m.get("village");
+        }
+        address.setProvince(province);
+        address.setCity(city);
+        address.setCounty(county);
+        address.setTown(town);
+        address.setVillage(village);
+        adminUserService.createAddress(address);
     }
 
     /**

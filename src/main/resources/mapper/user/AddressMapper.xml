@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sc.adminht.mapper.user.AddressMapper">
+    <resultMap type="com.sc.adminht.entity.user.Address" id="Address">
+        <result property="id" column="id"/>
+        <result property="province" column="province"/>
+        <result property="city" column="city"/>
+        <result property="county" column="county"/>
+        <result property="town" column="town"/>
+        <result property="village" column="village"/>
+    </resultMap>
+    <insert id="createAddress"  keyColumn="id" keyProperty="id">
+      INSERT INTO sys_address (province,city,county,town,village) VALUES (#{province},#{city},#{county},#{town},#{village})
+    </insert>
+</mapper>

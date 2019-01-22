@@ -37,7 +37,7 @@ public class LoginController extends BaseController {
 
     @RequestMapping(value = {"/","/index.html"})
     public String index(){
-        return "index.html";
+        return "/admin/index.html";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)

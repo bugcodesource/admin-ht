@@ -2,7 +2,9 @@ package com.sc.adminht.service.impl;
 
 import com.sc.adminht.entity.system.AdminUser;
 import com.sc.adminht.entity.system.UserInfo;
+import com.sc.adminht.entity.user.Address;
 import com.sc.adminht.mapper.system.AdminUserMapper;
+import com.sc.adminht.mapper.user.AddressMapper;
 import com.sc.adminht.service.system.AdminUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +24,8 @@ import java.util.Map;
 public class AdminUserServiceImpl implements AdminUserService {
     @Autowired
     private AdminUserMapper adminUserMapper;
+    @Autowired
+    private AddressMapper addressMapper;
 
     @Override
     public AdminUser findUserByName(String loginName) {
@@ -57,5 +61,10 @@ public class AdminUserServiceImpl implements AdminUserService {
     @Override
     public List<UserInfo> queryBySearch(String search) {
         return adminUserMapper.queryBySearch(search);
+    }
+
+    @Override
+    public int createAddress(Address address) {
+        return addressMapper.createAddress(address);
     }
 }

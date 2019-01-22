@@ -2,6 +2,7 @@ package com.sc.adminht.service.system;
 
 import com.sc.adminht.entity.system.AdminUser;
 import com.sc.adminht.entity.system.UserInfo;
+import com.sc.adminht.entity.user.Address;
 import com.sc.adminht.mapper.system.AdminUserMapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,4 +25,6 @@ public interface AdminUserService {
     public int deleteUserInfo(int userId);
 
     List<UserInfo> queryBySearch(String search);
+
+    int createAddress(Address address);
 }
